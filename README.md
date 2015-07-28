@@ -1,2 +1,2 @@
-linux-3.8.13-accton
+linux-3.8.13-centec
 ===================

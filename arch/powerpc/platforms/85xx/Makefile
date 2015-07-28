@@ -26,6 +26,7 @@ obj-$(CONFIG_P1023_RDS)   += p1023_rds.o
 obj-$(CONFIG_TWR_P102x)   += twr_p102x.o
 obj-$(CONFIG_ACCTON_AS6700_32X)  += accton_as6700_32x.o corenet_ds.o
 obj-$(CONFIG_ACCTON_AS5710_54X)  += accton_as5710_54x.o corenet_ds.o
+obj-$(CONFIG_CENTEC_E580)  += centec_e580.o
 obj-$(CONFIG_P2041_RDB)   += p2041_rdb.o corenet_ds.o
 obj-$(CONFIG_P3041_DS)    += p3041_ds.o corenet_ds.o
 obj-$(CONFIG_P4080_DS)    += p4080_ds.o corenet_ds.o

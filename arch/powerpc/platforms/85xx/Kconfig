@@ -260,6 +260,18 @@ config ACCTON_AS5710_54X
 	help
 	  This option enables support for the Accton AS5710_54X platform.
 
+config CENTEC_E580
+        bool "Centec Networks platform with GoldenGate chip"
+        select DEFAULT_UIMAGE
+	select CTC_PLATFORM
+        help
+          This option enables support for centec e580 platform 
+
+config CTC_PLATFORM 
+        bool "Centec Networks Platform"
+        help
+          This option enables support for centec platform
+
 config P2041_RDB
 	bool "Freescale P2041 RDB"
 	select DEFAULT_UIMAGE
